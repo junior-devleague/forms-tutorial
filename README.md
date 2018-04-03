@@ -62,8 +62,9 @@ Forms are used to collect user inputs. Allows user to send data to the website. 
 ### Text Area
 - Multi-line input field
 ```
- E-mail:
-  <input type="email" name="email">
+<textarea rows="4" cols="50">
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
+</textarea>
  ```
  
 ### AddEventListener Submit
