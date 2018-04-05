@@ -1,5 +1,5 @@
 # Forms Tutorial
-[Intermediate] HTML/CSS/JS - How to set up basic form with functionality
+[Intermediate] HTML/CSS/JS - Basic forms 
 
 
 ## What are forms?
