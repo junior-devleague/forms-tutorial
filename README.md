@@ -14,8 +14,8 @@ Forms are used to collect user inputs. Allows user to send data to the website. 
     - `<textarea>`
   - Form Attribute:
     - `value`
-    
-### Input
+### HTML
+#### Input
 - Input type: Text
   - Defines a one-line text input field
   - `<input type="text" name="firstname">`
@@ -48,7 +48,7 @@ Forms are used to collect user inputs. Allows user to send data to the website. 
   <input type="email" name="email">
   ```
   
-### Select
+#### Select
 - Defines a drop-down list
 ```
 <select name="cars">
@@ -59,16 +59,24 @@ Forms are used to collect user inputs. Allows user to send data to the website. 
 </select>
  ```
   
-### Text Area
+#### Text Area
 - Multi-line input field
 ```
 <textarea rows="4" cols="50">
 Bacon ipsum dolor amet ham hock burgdoggen ball tip sirloin. Ribeye pork buffalo short ribs short loin drumstick meatball burgdoggen pig tail. Pork landjaeger shank cupim pork belly salami bresaola pancetta hamburger pork loin. Tenderloin pastrami burgdoggen pancetta pig. Buffalo ribeye pastrami sausage boudin. 
 </textarea>
  ```
- 
-### AddEventListener Submit
-- `document.getElementById("myForm").addEventListener("submit", myFunction);`
+### Javascript
+#### AddEventListener Submit
+- wrap all of your code within
+```
+window.onload = function() {
+ // your code here
+};
+```
+- Use the event name `submit` and attach the `addEventListener` method to the HTML form ID
+  - `document.getElementById("myForm").addEventListener("submit", myFunction);`
+- use `.value` property to get your input value https://www.w3schools.com/jsref/prop_option_value.asp
 - use `event.preventDefault()` to stop form from refreshing
 - use `reset()` method to clear input after submit
 
